@@ -1,0 +1,75 @@
+': And, End, EndFuncion, Endfor, Endif, Endwhile, ID, If, Or, Return, While, bool, cin, cout, diferente_que, else, float, for, igual_que, iguales_que, int, maIgual_que, mayor_que, meIgual_que, menor_que, parentesisDER, parentesisIZQ, pcoma, string
+'': End, EndFuncion, Endfor, Endif, Endwhile, ID, If, Return, While, bool, cin, cout, else, float, for, int, parentesisDER, parentesisIZQ, pcoma, string
+ACCION: End, EndFuncion, Endfor, Endif, Endwhile, else
+And: ID, Num, bool_False, bool_True
+AsigDentr: End, EndFuncion, Endfor, Endif, Endwhile, else
+Asignacion: ID, Num, bool_False, bool_True, parentesisDER
+CIN: End, EndFuncion, Endfor, Endif, Endwhile, else
+CONDICION: Endif, Endwhile, ID, If, Return, While, bool, cin, cout, else, float, for, int, string
+CONDICIONP: parentesisDER
+CONTROL: End, EndFuncion, Endfor, Endif, Endwhile, else
+COUT: End, EndFuncion, Endfor, Endif, Endwhile, else
+COUT1: End, EndFuncion, Endfor, Endif, Endwhile, ID, If, Return, While, bool, cin, cout, else, float, for, int, string
+COUT2: End, EndFuncion, Endfor, Endif, Endwhile, ID, If, Return, While, bool, cin, cout, else, float, for, int, string
+Div: ID, Num, bool_False, bool_True, parentesisDER
+E: End, EndFuncion, Endfor, Endif, Endwhile, else
+ELSE: Endif
+EXPRE: parentesisDER, pcoma
+EXPRE1: parentesisDER, pcoma
+End: $
+EndFuncion: Principality, TipoFuncion
+Endfor: End, EndFuncion, Endfor, Endif, Endwhile, ID, If, Return, While, bool, cin, cout, else, float, for, int, string
+Endif: End, EndFuncion, Endfor, Endif, Endwhile, ID, If, Return, While, bool, cin, cout, else, float, for, int, string
+Endwhile: End, EndFuncion, Endfor, Endif, Endwhile, ID, If, Return, While, bool, cin, cout, else, float, for, int, string
+EstructMay: $
+FOR: End, EndFuncion, Endfor, Endif, Endwhile, else
+FUNCION: ', Div, End, EndFuncion, Endfor, Endif, Endwhile, ID, If, Mult, Resta, Return, Suma, While, bool, cin, cout, else, float, for, int, string
+ID: ', Asignacion, Div, End, EndFuncion, Endfor, Endif, Endwhile, ID, If, Mult, Resta, Return, S_ascender, S_descender, Suma, While, bool, cin, cout, else, float, for, int, parentesisDER, parentesisIZQ, pcoma, string
+IF: End, EndFuncion, Endfor, Endif, Endwhile, else
+If: parentesisIZQ
+K: End, EndFuncion, Endfor, Endif, Endwhile, ID, If, Return, While, bool, cin, cout, else, float, for, int, string
+Mult: ID, Num, bool_False, bool_True, parentesisDER
+Num: ', Div, End, EndFuncion, Endfor, Endif, Endwhile, ID, If, Mult, Resta, Return, Suma, While, bool, cin, cout, else, float, for, int, pcoma, string
+O1: And, End, EndFuncion, Endfor, Endif, Endwhile, ID, If, Or, Return, While, bool, cin, cout, diferente_que, else, float, for, igual_que, iguales_que, int, maIgual_que, mayor_que, meIgual_que, menor_que, parentesisDER, parentesisIZQ, pcoma, string
+O2: And, End, EndFuncion, Endfor, Endif, Endwhile, ID, If, Or, Return, While, bool, cin, cout, diferente_que, else, float, for, igual_que, iguales_que, int, maIgual_que, mayor_que, meIgual_que, menor_que, parentesisDER, parentesisIZQ, pcoma, string
+OL: ID, Num, bool_False, bool_True, parentesisDER
+OLC: ID, Num, bool_False, bool_True
+Or: ID, Num, bool_False, bool_True
+Parametros: EndFuncion, ID, If, Return, While, bool, cin, cout, float, for, int, string
+Principality: End, ID, If, Return, While, bool, cin, cout, float, for, int, string
+RETURN: End, EndFuncion, Endfor, Endif, Endwhile, else
+Resta: ID, Num, bool_False, bool_True, parentesisDER
+Return: ID, Num, bool_False, bool_True, parentesisDER
+SR: parentesisDER
+S_ascender: parentesisDER
+S_descender: parentesisDER
+Suma: ID, Num, bool_False, bool_True, parentesisDER
+TBool: And, End, EndFuncion, Endfor, Endif, Endwhile, ID, If, Or, Return, While, bool, cin, cout, diferente_que, else, float, for, igual_que, iguales_que, int, maIgual_que, mayor_que, meIgual_que, menor_que, parentesisDER, parentesisIZQ, pcoma, string
+TipoFuncion: ID
+V: ID
+VariosPara: parentesisDER
+VariosPara2: parentesisDER
+WHILE: End, EndFuncion, Endfor, Endif, Endwhile, else
+While: parentesisIZQ
+bool: ID
+bool_False: And, End, EndFuncion, Endfor, Endif, Endwhile, ID, If, Or, Return, While, bool, cin, cout, diferente_que, else, float, for, igual_que, iguales_que, int, maIgual_que, mayor_que, meIgual_que, menor_que, parentesisDER, parentesisIZQ, pcoma, string
+bool_True: And, End, EndFuncion, Endfor, Endif, Endwhile, ID, If, Or, Return, While, bool, cin, cout, diferente_que, else, float, for, igual_que, iguales_que, int, maIgual_que, mayor_que, meIgual_que, menor_que, parentesisDER, parentesisIZQ, pcoma, string
+cin: ID
+cout: ID, Num
+diferente_que: ID, Num, bool_False, bool_True
+else: Endif, ID, If, Return, While, bool, cin, cout, float, for, int, string
+float: ID
+for: parentesisIZQ
+funExp1: parentesisIZQ
+funExp2: parentesisIZQ
+igual_que: ID, Num, bool_False, bool_True
+iguales_que: ID, Num, bool_False, bool_True
+int: ID
+maIgual_que: ID, Num, bool_False, bool_True
+mayor_que: ID, Num, bool_False, bool_True
+meIgual_que: ID, Num, bool_False, bool_True
+menor_que: ID, Num, bool_False, bool_True
+parentesisDER: EndFuncion, Endfor, Endif, Endwhile, ID, If, Num, Return, While, bool, bool_False, bool_True, cin, cout, else, float, for, int, parentesisDER, string
+parentesisIZQ: ', Div, End, EndFuncion, Endfor, Endif, Endwhile, ID, If, Mult, Num, Resta, Return, Suma, While, bool, bool_False, bool_True, cin, cout, else, float, for, int, parentesisDER, string
+pcoma: ID, Num, bool, bool_False, bool_True, float, int, parentesisDER, string
+string: ID

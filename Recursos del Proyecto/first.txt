@@ -1,0 +1,75 @@
+': '
+'': ''
+ACCION: ID
+And: And
+AsigDentr: bool, float, int, string
+Asignacion: Asignacion
+CIN: cin
+CONDICION: parentesisIZQ
+CONDICIONP: bool, float, int, string
+CONTROL: If, While, for
+COUT: cout
+COUT1: ID, Num
+COUT2: '', Suma
+Div: Div
+E: '', ID, If, Return, While, bool, cin, cout, float, for, int, string
+ELSE: '', else
+EXPRE: ID, Num, bool_False, bool_True
+EXPRE1: '', And, Or, diferente_que, igual_que, iguales_que, maIgual_que, mayor_que, meIgual_que, menor_que
+End: End
+EndFuncion: EndFuncion
+Endfor: Endfor
+Endif: Endif
+Endwhile: Endwhile
+EstructMay: Principality, TipoFuncion
+FOR: for
+FUNCION: ID
+ID: ID
+IF: If
+If: If
+K: '', Asignacion
+Mult: Mult
+Num: Num
+O1: ID, Num, bool_False, bool_True, parentesisDER
+O2: ', Div, Mult, Resta, Suma
+OL: Div, Mult, Resta, Suma
+OLC: And, Or, diferente_que, igual_que, iguales_que, maIgual_que, mayor_que, meIgual_que, menor_que
+Or: Or
+Parametros: parentesisIZQ
+Principality: Principality
+RETURN: Return
+Resta: Resta
+Return: Return
+SR: S_ascender, S_descender
+S_ascender: S_ascender
+S_descender: S_descender
+Suma: Suma
+TBool: bool_False, bool_True
+TipoFuncion: TipoFuncion
+V: bool, float, int, string
+VariosPara: bool, float, int, string
+VariosPara2: '', pcoma
+WHILE: While
+While: While
+bool: bool
+bool_False: bool_False
+bool_True: bool_True
+cin: cin
+cout: cout
+diferente_que: diferente_que
+else: else
+float: float
+for: for
+funExp1: ID, Num, bool_False, bool_True, parentesisDER
+funExp2: '', pcoma
+igual_que: igual_que
+iguales_que: iguales_que
+int: int
+maIgual_que: maIgual_que
+mayor_que: mayor_que
+meIgual_que: meIgual_que
+menor_que: menor_que
+parentesisDER: parentesisDER
+parentesisIZQ: parentesisIZQ
+pcoma: pcoma
+string: string
