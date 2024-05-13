@@ -27,12 +27,6 @@ Para visualizar el árbol sintáctico generado:
 - Utiliza Graphviz para abrir el archivo de salida generado por `parser.py`.
 - O visualiza el árbol utilizando Three.js si prefieres una representación en 3D.
 
-## Contribuciones
-Las contribuciones son bienvenidas. Si deseas mejorar el analizador o sugerir cambios en la gramática, por favor haz un fork del repositorio y envía un pull request con tus modificaciones.
-
-## Licencia
-Este proyecto está bajo una licencia MIT. Consulta el archivo `LICENSE` para más detalles.
-
 ## Autores
 - Bekam Eddy Marc Huaracha Cabrera
 
